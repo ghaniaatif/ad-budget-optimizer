@@ -1,0 +1,11 @@
+{
+  "cpu_cores": 2,
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "pandas": "3.0.5",
+  "model_used_for_nlp_job": "demo",
+  "nlp_max_scale": "1M",
+  "spark_startup_seconds": 7.72,
+  "note": "Seconds are the median of `repeats` runs, measured from reading the files to having the final table. Spark start-up is reported separately and a warm-up job was run before timing.",
+  "pyspark": "4.3.0"
+}

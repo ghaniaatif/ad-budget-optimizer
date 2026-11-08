@@ -1,0 +1,4 @@
+plan,expected_revenue,expected_roas,Google,Instagram,Facebook,YouTube,TikTok,recommended_is_better_by_pct
+Recommended,1684338,1.68,46.2,29.0,11.2,8.6,5.0,0.0
+Equal split,1541542,1.54,20.0,20.0,20.0,20.0,20.0,9.3
+Same as last year,1559161,1.56,19.2,23.0,28.2,14.4,15.2,8.0

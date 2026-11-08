@@ -1,0 +1,133 @@
+{
+  "budget": 1000000,
+  "weeks": 4,
+  "min_share": 0.05,
+  "max_share": 0.5,
+  "plan_start": "2026-11-02",
+  "curves": {
+    "Facebook": {
+      "alpha": 1.858506278643758,
+      "b": 0.8811665007670121,
+      "b_used": 0.8811665007670121,
+      "c_sin": 0.050222822372251924,
+      "c_cos": -0.42545984370448064,
+      "sigma2": 0.12836864081300095,
+      "r2_log": 0.717,
+      "n_obs": 156,
+      "campaign_alpha": {
+        "Facebook | No White Cast Stick": 1.752053881223507,
+        "Facebook | Oily Skin Gel": 1.7095332955716473,
+        "Facebook | SPF50 Summer Launch": 1.7217955336193815
+      },
+      "hist_min_weekly_spend": 37382.5,
+      "hist_max_weekly_spend": 123148.98,
+      "hist_mean_weekly_spend": 67194.135,
+      "revenue_per_conversion": 1798.1678874824192
+    },
+    "Google": {
+      "alpha": 4.344416291413385,
+      "b": 0.7046717704110605,
+      "b_used": 0.7046717704110605,
+      "c_sin": 0.03711723274815386,
+      "c_cos": -0.36072330498609856,
+      "sigma2": 0.05008755572019647,
+      "r2_log": 0.79,
+      "n_obs": 156,
+      "campaign_alpha": {
+        "Google | No White Cast Stick": 3.9976089418655123,
+        "Google | Oily Skin Gel": 3.976817409205684,
+        "Google | SPF50 Summer Launch": 4.082318196929191
+      },
+      "hist_min_weekly_spend": 19027.33,
+      "hist_max_weekly_spend": 92401.89,
+      "hist_mean_weekly_spend": 45644.75384615385,
+      "revenue_per_conversion": 1793.932864344638
+    },
+    "Instagram": {
+      "alpha": 3.066500434200635,
+      "b": 0.7911291286545794,
+      "b_used": 0.7911291286545794,
+      "c_sin": 0.04398117200932403,
+      "c_cos": -0.3775429934422566,
+      "sigma2": 0.09300417375620623,
+      "r2_log": 0.761,
+      "n_obs": 156,
+      "campaign_alpha": {
+        "Instagram | No White Cast Stick": 2.8064580164482598,
+        "Instagram | Oily Skin Gel": 2.8927030478552718,
+        "Instagram | SPF50 Summer Launch": 2.809519445894174
+      },
+      "hist_min_weekly_spend": 26672.559999999998,
+      "hist_max_weekly_spend": 106940.42,
+      "hist_mean_weekly_spend": 54750.412692307684,
+      "revenue_per_conversion": 1905.4837824581648
+    },
+    "TikTok": {
+      "alpha": 0.5469943941106219,
+      "b": 1.1227847095651542,
+      "b_used": 0.95,
+      "c_sin": 0.04304896171896498,
+      "c_cos": -0.3732360142889071,
+      "sigma2": 0.234440797851933,
+      "r2_log": 0.64,
+      "n_obs": 156,
+      "campaign_alpha": {
+        "TikTok | No White Cast Stick": 0.4272068969529493,
+        "TikTok | Oily Skin Gel": 0.5108864082244794,
+        "TikTok | SPF50 Summer Launch": 0.5349293092979636
+      },
+      "hist_min_weekly_spend": 16073.15,
+      "hist_max_weekly_spend": 73008.72,
+      "hist_mean_weekly_spend": 36156.50692307693,
+      "revenue_per_conversion": 1493.9735866666665
+    },
+    "YouTube": {
+      "alpha": 1.6110747094700117,
+      "b": 0.8874295944981205,
+      "b_used": 0.8874295944981205,
+      "c_sin": -0.0420666437411842,
+      "c_cos": -0.34844539914180606,
+      "sigma2": 0.18362930918832462,
+      "r2_log": 0.578,
+      "n_obs": 156,
+      "campaign_alpha": {
+        "YouTube | No White Cast Stick": 1.5555177628084518,
+        "YouTube | Oily Skin Gel": 1.4013914840093693,
+        "YouTube | SPF50 Summer Launch": 1.4992620210211103
+      },
+      "hist_min_weekly_spend": 15022.26,
+      "hist_max_weekly_spend": 57322.33,
+      "hist_mean_weekly_spend": 34268.37307692308,
+      "revenue_per_conversion": 1681.6492917369308
+    }
+  },
+  "holdout": {
+    "holdout_weeks": 10,
+    "per_platform": {
+      "Facebook": {
+        "mape_pct": 15.2,
+        "total_error_pct": -11.0
+      },
+      "Google": {
+        "mape_pct": 18.4,
+        "total_error_pct": -19.0
+      },
+      "Instagram": {
+        "mape_pct": 13.6,
+        "total_error_pct": -8.6
+      },
+      "TikTok": {
+        "mape_pct": 18.6,
+        "total_error_pct": -15.3
+      },
+      "YouTube": {
+        "mape_pct": 21.2,
+        "total_error_pct": -9.7
+      }
+    },
+    "total_revenue_error_pct": -13.2,
+    "mean_mape_pct": 17.4
+  },
+  "total_expected_revenue": 1684338.0,
+  "total_expected_roas": 1.68
+}

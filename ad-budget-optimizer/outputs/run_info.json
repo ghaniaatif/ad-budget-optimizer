@@ -1,0 +1,11 @@
+{
+  "scales": [
+    "10K",
+    "100K",
+    "1M",
+    "10M"
+  ],
+  "analysis_scale": "10M",
+  "budget": 1000000,
+  "weeks": 4
+}

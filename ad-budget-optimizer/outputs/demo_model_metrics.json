@@ -1,0 +1,7 @@
+{
+  "trained_on": "synthetic sunscreen comments",
+  "n_train": 32000,
+  "n_test": 8000,
+  "accuracy": 0.973,
+  "macro_f1": 0.97
+}

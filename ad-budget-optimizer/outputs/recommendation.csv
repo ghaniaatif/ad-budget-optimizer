@@ -1,0 +1,6 @@
+platform,share_pct,spend,weekly_spend,expected_revenue,expected_roas,expected_conversions,marginal_roas,curve_exponent_b,limit,within_history,historical_share_pct
+Google,46.2,462000.0,115500.0,883569.0,1.91,493.0,1.35,0.7,at history cap,False,19.2
+Instagram,29.0,290000.0,72500.0,468880.0,1.62,246.0,1.28,0.79,,True,23.0
+Facebook,11.2,112000.0,28000.0,162625.0,1.45,90.0,1.28,0.88,,False,28.2
+YouTube,8.6,86000.0,21500.0,123967.0,1.44,74.0,1.28,0.89,,True,14.4
+TikTok,5.0,50000.0,12500.0,45297.0,0.91,30.0,0.86,1.12,at min share,False,15.2
